@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Awesome Pausing",
+  "description": "This extension pauses youtube when you switch tabs",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
